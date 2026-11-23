@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boddapu Abhi | Aspiring Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Boddapu Abhi — Aspiring Software Developer and AI & Data Science student skilled in Python, Java, Generative AI, and creative media."
+    />
+    <meta
+      name="keywords"
+      content="Boddapu Abhi, Aspiring Software Developer, Python, Java, Generative AI, AI & Data Science, Creative Skills, Portfolio"
+    />
+    <meta name="author" content="Boddapu Abhi" />
+    <meta name="theme-color" content="#08090D" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Boddapu Abhi | Aspiring Software Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Boddapu Abhi — Aspiring Software Developer and AI & Data Science student skilled in Python, Java, Generative AI, and creative media."
+    />
+    <meta property="og:site_name" content="Boddapu Abhi" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Boddapu Abhi | Aspiring Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Boddapu Abhi — Aspiring Software Developer and AI & Data Science student skilled in Python, Java, Generative AI, and creative media."
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2308090D'/%3E%3Crect x='2' y='2' width='60' height='60' rx='12' fill='none' stroke='%238B5CF6' stroke-width='2' stroke-opacity='0.6'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFFFFF' font-family='sans-serif' font-weight='700' font-size='26'%3EAB.%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Fonts: Outfit (Display) + Plus Jakarta Sans (Body) + JetBrains Mono (Tabular/Index) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent theme flash -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('ab-portfolio-theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Boddapu Abhi",
+        "jobTitle": "Artificial Intelligence and Data Science Student",
+        "description": "Artificial Intelligence and Data Science student passionate about Artificial Intelligence, Generative AI, frontend development, and creative skills.",
+        "email": "mailto:abhiboddapu839@gmail.com",
+        "sameAs": [
+          "https://github.com/abhiboddapu",
+          "https://www.linkedin.com/in/boddapu-abhi-59a362321/"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#08090D] dark:text-white antialiased transition-colors duration-200 selection:bg-[#8B5CF6]/30">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
